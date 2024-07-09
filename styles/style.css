@@ -39,6 +39,7 @@
     padding-bottom: 24px;
     line-height: 68px;
     letter-spacing: 0%;
+    color: #0D1321;
 }
 .banner-subtitle{
   
@@ -47,27 +48,101 @@
     padding: 0px 294px 32px 294px;
     line-height: 26px;
     letter-spacing: 0%;
+    color: #0D1321;
+    opacity: 0.7;
 
 }
-.btn-primary{
+ .btn-primary{
     margin-bottom: 45px;
     padding: 21px 24px;
     background-color: #0D1321;
     border-radius: 8px;
     border: none;
-    color: white;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
 }
+a{
+    
+    color: white;
+    text-decoration: none;
+}
 /* details of development */
 .develop-query{
     width: 1140px;
     height: 1393px;
     margin: 74px 152px 90px 148px;
-    border: 2px solid red;
     padding: 80px 97px;
 }
+.some-question{
+    text-align: center;
+}
+.develop-title{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 0%;
+    padding-bottom: 30px;
+}
+.develop-subtitle{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    padding: 0px 47px 48px 47px;
  
+}
+.btn-style{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-align: center;
+   
+   
+}
+.develop-question{
+    display: flex;
+    padding: 48px;
+    width: 820px;
+    height: 220px;
+    margin-bottom: 150px;
+}
+.attention-imag{
+padding-left: 99px;
+}
+.question-two{
+    display: flex;
+    gap: 32px;
+}
+/*  shared style*/
+.develop-question-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 16px;
+}
+.develop-question-answer{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    padding-bottom: 32px;
+}
+#btn-primary-style{
+    text-decoration: none;
+    color:rgb(13, 19, 33);
+    opacity: 0.7;
+
+
+}
+
