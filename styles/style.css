@@ -13,6 +13,32 @@
   font-weight:normal;
   font-style: normal;
 }
+/* nav style */
+.some-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 131px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.name{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    text-align: left;
+}
+.resume{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+
+ 
+}
 
 /* banner style */
 
@@ -281,3 +307,100 @@ padding-left: 99px;
     
 }
 
+/* my next terget */
+.next-target{
+    text-align: center;
+    width: 1140px;
+    height: 1437px;
+    margin: 74px 152px 90px 148px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.border-style{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 60px;
+    margin-bottom: 24px;
+   
+}
+/* footer par */
+.footer-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    height: 324px;
+    width: 1140px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 74px 152px 90px 148px;
+    padding: 64px 48px;
+    text-align: center;
+    color: white;
+   
+}
+.footer-title{
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+padding-bottom: 16px;
+}
+.footer-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    padding-bottom: 24px;
+    padding-left: 63px;
+}
+.footer-submit{
+width: 700px;
+height: 75px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+ text-align: center;
+ padding: 19px 50px;
+ display: flex;
+ flex: row;
+ gap: 16px;
+ 
+}
+.footer-text-input{
+    padding: 19px  215px 19px 20px;
+    height: 57px;
+    width: 548px;
+    gap: 18px;
+    margin-left: 180px;
+    border-radius: 8px;
+    
+}
+.submit{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px;
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+  
+}
+.footer-last-part{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    
+    
+}
+.imag{
+    
+    margin-bottom: 32px;
+    padding-right: 20px;
+}
